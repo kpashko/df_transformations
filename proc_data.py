@@ -84,9 +84,7 @@ class Processor:
 
 def main():
     p = Processor('data/test.tsv', method='z')
-
-    print(p.normalized)
-    p.save_to_file('moment_of_silence.tsv')
+    p.save_to_file('test_proc.tsv')
 
 
 if __name__ == "__main__":
